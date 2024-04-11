@@ -50,6 +50,3 @@ npm test
 
 Checkout [API Documentation](https://github.com/Jai0401/blog-api/blob/master/API%20Documentation.md) for more details.
 
-## Contributing
-
-Contributions are welcome! If you find any issues or want to add new features, feel free to submit a pull request.
