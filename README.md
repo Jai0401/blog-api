@@ -5,6 +5,7 @@ The **Blog API** is a simple RESTful API for managing blog posts.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Testing](#testing)
 - [Endpoints](#endpoints)
 - [Contributing](#contributing)
 
