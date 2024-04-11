@@ -4,7 +4,7 @@
   "description": "A REST API with Nodejs and Mysql",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
+    "test": "mocha tests/**/*.js",
     "start": "nodemon server.js"
   },
   "author": "Jaimin Godhani",
