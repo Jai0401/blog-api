@@ -1,19 +1,14 @@
-// Import Chai and Chai-HTTP using the dynamic import syntax
 const importChai = import('chai');
 const importChaiHttp = import('chai-http');
 
-// Set up Chai and Chai-HTTP
 (async () => {
   const chai = await importChai;
   const chaiHttp = await importChaiHttp;
 
-  // Use the default export of chaiHttp
   chai.use(chaiHttp.default);
 
-  // Set up Chai's expect function
   const expect = chai.expect;
 
-  // Assuming your Express app is in app.js
   const app = require('../app');
 
   describe('Authentication API', () => {
@@ -22,7 +17,7 @@ const importChaiHttp = import('chai-http');
       chai.request(app)
         .post('/user/sign-in')
         .send({
-          name: 'John Doe', // Optional: Use if your sign-in endpoint requires a name
+          name: 'Example Name',
           email: 'user@example.com',
           password: 'password123'
         })
