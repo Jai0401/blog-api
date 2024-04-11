@@ -143,7 +143,6 @@ function destroy(req, res) {
         });
 }
 
-// Implement update and destroy functions similarly to your previous controller
 
 module.exports = {
     save: save,
