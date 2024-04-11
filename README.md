@@ -7,7 +7,6 @@ The **Blog API** is a simple RESTful API for managing blog posts.
 - Usage
 - Endpoints
 - Contributing
-- License
 
 ## Installation
 
@@ -17,7 +16,8 @@ The **Blog API** is a simple RESTful API for managing blog posts.
   ```
 2. Install dependencies:
   ```
-  cd blog-api npm install
+  cd blog-api
+  npm install
   ```
 3. Set up your environment variables (e.g., database connection details, API keys).
 
