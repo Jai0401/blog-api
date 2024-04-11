@@ -1,13 +1,12 @@
 # Blog API
 
-The **Blog API** is a simple RESTful API for managing blog posts.
+The **Blog API** is a simple RESTful API for managing blog posts, built using Node.js and MySQL.
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
 - [Endpoints](#endpoints)
-- [Contributing](#contributing)
 
 ## Installation
 
