@@ -6,6 +6,7 @@ const userRoute = require('./routes/user');
 const commentsRoute = require('./routes/comments');
 const imageRoute = require('./routes/images');
 const testRoutes = require('./routes/tests');
+const categoryRoutes = require("./routes/category");
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.use('/uploads', express.static('uploads'));
 app.use("/posts", postsRoute);
 app.use("/user", userRoute);
 app.use("/comments", commentsRoute);
+app.use("/category", categoryRoutes);
 app.use("/images", imageRoute);
 app.use("/test", testRoutes);
 
