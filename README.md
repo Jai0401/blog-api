@@ -3,10 +3,10 @@
 The **Blog API** is a simple RESTful API for managing blog posts.
 
 ## Table of Contents
-- Installation
-- Usage
-- Endpoints
-- Contributing
+- [Installation](#installation)
+- [Usage](#usage)
+- [Endpoints](#endpoints)
+- [Contributing](#contributing)
 
 ## Installation
 
@@ -20,6 +20,10 @@ The **Blog API** is a simple RESTful API for managing blog posts.
   npm install
   ```
 3. Set up your environment variables (e.g., database connection details).
+4. Run migrations to create database tables:
+   ```
+   npx sequelize-cli db:migrate
+   ```
 
 ## Usage
 
