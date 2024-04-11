@@ -1,9 +1,33 @@
-# Blog API Documentation
+# API Documentation
 ## Overview
 The blog-api is designed to manage posts, comments, user registration, and authentication using a JWT token. Below, we’ll delve into the specifics of this API.
 
 ## Endpoints
 
+- ### User Sign-up
+  - Endpoint: POST `/user/sign-up`
+  - Description: Registers a new user.
+  - Request Format:
+    ```json
+    {
+      "name": "example_user",
+      "email": "example@example.com",
+      "password": "your_password"
+    }
+    ```
+  - Response Format: Success message or error message.
+
+- ### User Login
+  - Endpoint: POST `/user/login`
+  - Description: Logs in a user.
+  - Request Format:
+    ```json
+    {
+      "email": "example@example.com",
+      "password": "your_password"
+    }
+    ```
+  - Response Format: JSON object containing JWT token or error message.
 - ### Retrieve All Posts
   - Endpoint: GET `/posts`
   - Description: Fetches a list of all blog posts.
@@ -19,7 +43,13 @@ The blog-api is designed to manage posts, comments, user registration, and authe
 - ### Create a New Post
   - Endpoint: POST `/posts`
   - Description: Creates a new blog post.
-  - Request Format: JSON object with post content.
+  - Request Format:
+    ```json
+    {
+      "title": "Sample Post",
+      "content": "This is a sample post content."
+    }
+    ```
   - Response Format: JSON object representing the newly created post.
   - Authentication: Requires a valid JWT token.
 
@@ -43,6 +73,7 @@ The blog-api is designed to manage posts, comments, user registration, and authe
   - Endpoint: POST `/category`
   - Description: Creates new category.
   - Response Format: Success message with category details.
+
 
 ## Authentication
 To access protected endpoints (create, update, delete), include a valid JWT token in the request headers.
