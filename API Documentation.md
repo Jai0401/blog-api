@@ -36,6 +36,13 @@ The blog-api is designed to manage posts, comments, user registration, and authe
   - Response Format: Success message.
   - Authentication: Requires a valid JWT token.
 
+- ### Testing route
+  - Endpoint: GET `test/associations`
+
+- ### Category creation
+  - Endpoint: POST `/category`
+  - Description: Creates new category.
+  - Response Format: Success message with category details.
 
 ## Authentication
 To access protected endpoints (create, update, delete), include a valid JWT token in the request headers.
