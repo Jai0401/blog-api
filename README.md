@@ -41,6 +41,7 @@ npx sequelize-cli db:migrate
 - **POST /posts**: Create a new blog post.
 - **PUT /posts/:id**: Update an existing blog post.
 - **DELETE /posts/:id**: Delete a blog post.
+Checkout [API Documentation](https://github.com/Jai0401/blog-api/blob/master/API%20Documentation.md) for more details.
 
 ## Contributing
 
