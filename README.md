@@ -34,6 +34,11 @@ npx sequelize-cli db:migrate
 
 2. Access the API at `http://localhost:3000`.
 
+## Testing
+```
+npm test
+```
+
 ## Endpoints
 
 - **GET /posts**: Get a list of all blog posts.
