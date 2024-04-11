@@ -39,4 +39,4 @@ The blog-api is designed to manage posts, comments, user registration, and authe
 
 ## Authentication
 To access protected endpoints (create, update, delete), include a valid JWT token in the request headers.
-Obtain the token by authenticating via the login endpoint (POST user/login).
+Obtain the token by authenticating via the login endpoint (POST `user/sign-up`, POST `user/login`).
